@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".Lab3_3Activity">
+
+    <Button
+        android:id="@+id/btn_visible_true"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="visible true"/>
+
+    <TextView
+        android:id="@+id/text_visible_target"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="#FF0000"
+        android:textColor="#FFFFFF"
+        android:padding="16dp"
+
+        android:visibility="invisible"/>
+
+    <Button
+        android:id="@+id/btn_visible_false"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="visible_false"/>
+
+    <CheckBox
+        android:id="@+id/checkbox"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="is unChecked"/>
+
+    <RadioGroup
+        android:id="@+id/radioGroup"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
+
+        <RadioButton
+            android:id="@+id/radio1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="radio 1"/>
+
+        <RadioButton
+            android:id="@+id/radio2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="radio 2"/>
+    </RadioGroup>
+</LinearLayout>
